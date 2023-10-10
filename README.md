@@ -72,33 +72,18 @@ A sample of **1,500** tweets was labeled manually based on three categories of *
 
 
 ### Transformers
-
-#### XLM-RoBERTa
+Incorporating transformer-based architectures, such as **ParsBert**, **BERTweet-FA**, and **xlm-roberta**, for the text classification task.
 <p align="center">
   <br/>
   <a href="https://www.linkpicture.com/view.php?img=LPic65254518742381685913131">
-    <img src="https://www.linkpicture.com/q/xlm-roberta.png" height="150" />
+    <img src="https://www.linkpicture.com/q/xlm-roberta.png" height="100" />
   </a>
-  <br/>
-  <em>Results by XLM-RoBERTa</em>
-</p>
-
-#### ParsBERT
-<p align="center">
-  <br/>
   <a href="https://www.linkpicture.com/view.php?img=LPic6525462590dfa938751309">
-    <img src="https://www.linkpicture.com/q/ParsBERT.png" height="150" />
+    <img src="https://www.linkpicture.com/q/ParsBERT.png" height="100" />
   </a>
-  <br/>
-  <em>Results by ParsBERT</em>
-</p>
-
- #### BERTweet-FA
-<p align="center">
-  <br/>
   <a href="https://www.linkpicture.com/view.php?img=LPic652545a98eaa52047570721">
-    <img src="https://www.linkpicture.com/q/BERTweet-FA.png" height="150" />
+    <img src="https://www.linkpicture.com/q/BERTweet-FA.png" height="100" />
   </a>
   <br/>
-  <em>Results by BERTweet-FA</em>
+  <em>Results by XLM-RoBERTa &emsp;&emsp;&emsp;&emsp;&emsp; Results by ParsBERT &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Results by BERTweet-FA</em>
 </p>
