@@ -51,10 +51,54 @@ BERTopic is a topic modeling technique that leverages **BERT** embeddings and **
 <p align="center">
   <br/>
   <a href="https://www.linkpicture.com/view.php?img=LPic65253ec1b6bf2268875083">
-    <img src="https://www.linkpicture.com/q/bertopic.png" height="400" />
+    <img src="https://www.linkpicture.com/q/Screenshot-242.png" height="350" />
   </a>
   <br/>
   <em>Topics by BERTopic</em>
 </p>
 
+## Sentiment Analysis
+A sample of **1,500** tweets was labeled manually based on three categories of **opposition**, **acceptance**, and **neutral**. **Naive Bayes** and **Transformer** models were employed.
 
+### Naive Bayes
+<p align="center">
+  <br/>
+  <a href="https://www.linkpicture.com/view.php?img=LPic652543c03e831742018628">
+    <img src="https://www.linkpicture.com/q/NaiveBayes.png" height="150" />
+  </a>
+  <br/>
+  <em>Results by Naive Bayes</em>
+</p>
+
+
+### Transformers
+
+#### XLM-RoBERTa
+<p align="center">
+  <br/>
+  <a href="https://www.linkpicture.com/view.php?img=LPic65254518742381685913131">
+    <img src="https://www.linkpicture.com/q/xlm-roberta.png" height="150" />
+  </a>
+  <br/>
+  <em>Results by XLM-RoBERTa</em>
+</p>
+
+#### ParsBERT
+<p align="center">
+  <br/>
+  <a href="https://www.linkpicture.com/view.php?img=LPic6525462590dfa938751309">
+    <img src="https://www.linkpicture.com/q/ParsBERT.png" height="150" />
+  </a>
+  <br/>
+  <em>Results by ParsBERT</em>
+</p>
+
+ #### BERTweet-FA
+<p align="center">
+  <br/>
+  <a href="https://www.linkpicture.com/view.php?img=LPic652545a98eaa52047570721">
+    <img src="https://www.linkpicture.com/q/BERTweet-FA.png" height="150" />
+  </a>
+  <br/>
+  <em>Results by BERTweet-FA</em>
+</p>
