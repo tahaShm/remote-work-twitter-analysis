@@ -8,9 +8,7 @@ We focused on selecting tweets relevant to remote work from the collected Persia
 
 <p align="center">
   <br/>
-  <a href="https://www.linkpicture.com/view.php?img=LPic65252a921aaad611372850">
-    <img src="TweetCounts.png" height="300" />
-  </a>
+    <img src="img/TweetCounts.png" height="300" />
   <br/>
   <em>Tweet Counts</em>
 </p>
@@ -20,12 +18,8 @@ We focused on selecting tweets relevant to remote work from the collected Persia
 We removed duplicate **chars** and **emojis** (available in *emojies.txt*), **stop-words** (available in the *stopwords* folder), **Unicode errors**, **URLs**, **phone numbers**, **emails**, **currency symbols**, and useless punctuations and chars. Also, **normalization** and **lemmatization** were applied using tools like `Hazm`, which is optimized for the Persian language, and `NLTK`.
 
 <p align="center" style="display: inline-block; text-align: center;">
-    <a href="https://www.linkpicture.com/view.php?img=LPic65251f49c343a464832547">
-      <img src="https://www.linkpicture.com/q/wordcloud.png" height="250" />
-    </a>
-    <a href="https://www.linkpicture.com/view.php?img=LPic65252149d2621979188254">
-      <img src="https://www.linkpicture.com/q/wordcloud_translated.png" height="250" />
-    </a>
+      <img src="img/wordcloud.png" height="250" />
+      <img src="img/wordcloud_translated.png" height="250" />
     <br/>
     <em align="center">&emsp;&emsp;&emsp;Wordcloud (Persian)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Wordcloud (Translated)&emsp;&emsp;</em>
   <br/>
@@ -50,8 +44,8 @@ BERTopic is a topic modeling technique that leverages **BERT** embeddings and **
 
 <p align="center">
   <br/>
-  <a href="https://www.linkpicture.com/view.php?img=LPic65253ec1b6bf2268875083">
-    <img src="https://www.linkpicture.com/q/Screenshot-242.png" height="350" />
+  <a>
+    <img src="img/bertopic.png" height="350" />
   </a>
   <br/>
   <em>Topics by BERTopic</em>
@@ -63,9 +57,7 @@ A sample of **1,500** tweets was labeled manually based on three categories of *
 ### Naive Bayes
 <p align="center">
   <br/>
-  <a href="https://www.linkpicture.com/view.php?img=LPic652543c03e831742018628">
-    <img src="https://www.linkpicture.com/q/NaiveBayes.png" height="150" />
-  </a>
+    <img src="img/NaiveBayes.png" height="150" />
   <br/>
   <em>Results by Naive Bayes</em>
 </p>
@@ -75,15 +67,9 @@ A sample of **1,500** tweets was labeled manually based on three categories of *
 Incorporating transformer-based architectures, such as **ParsBert**, **BERTweet-FA**, and **xlm-roberta**, for the text classification task.
 <p align="center">
   <br/>
-  <a href="https://www.linkpicture.com/view.php?img=LPic65254518742381685913131">
-    <img src="https://www.linkpicture.com/q/xlm-roberta.png" height="100" />
-  </a>
-  <a href="https://www.linkpicture.com/view.php?img=LPic6525462590dfa938751309">
-    <img src="https://www.linkpicture.com/q/ParsBERT.png" height="100" />
-  </a>
-  <a href="https://www.linkpicture.com/view.php?img=LPic652545a98eaa52047570721">
-    <img src="https://www.linkpicture.com/q/BERTweet-FA.png" height="100" />
-  </a>
+    <img src="img/xlm-roberta.png" height="100" />
+    <img src="img/ParsBERT.png" height="100" />
+    <img src="img/BERTweet-FA.png" height="100" />
   <br/>
   <em>Results by XLM-RoBERTa &emsp;&emsp;&emsp;&emsp;&emsp; Results by ParsBERT &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Results by BERTweet-FA</em>
 </p>
