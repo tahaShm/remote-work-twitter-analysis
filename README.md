@@ -9,7 +9,7 @@ We focused on selecting tweets relevant to remote work from the collected Persia
 <p align="center">
   <br/>
   <a href="https://www.linkpicture.com/view.php?img=LPic65252a921aaad611372850">
-    <img src="https://www.linkpicture.com/q/TweetCounts.png" height="300" />
+    <img src="TweetCounts.png" height="300" />
   </a>
   <br/>
   <em>Tweet Counts</em>
