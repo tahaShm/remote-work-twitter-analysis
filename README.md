@@ -45,7 +45,7 @@ BERTopic is a topic modeling technique that leverages **BERT** embeddings and **
 <p align="center">
   <br/>
   <a>
-    <img src="img/bertopic.png" height="350" />
+    <img src="img/bertopic.png" height="300" />
   </a>
   <br/>
   <em>Topics by BERTopic</em>
