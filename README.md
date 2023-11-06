@@ -32,12 +32,12 @@ Topic modeling is a type of statistical modeling that uses **unsupervised** Mach
 Three algorithms, **Latent Dirichlet Allocation (LDA)**, **Gibbs Sampling Dirichlet Mixture Model (GSDMM)**, and **BERTopic**, were employed for this analysis. BERTopic is one of the Masked Language Models and contextualized models, while LDA and GSDMM are not.
 
 ### Latent Dirichlet Allocation (LDA)
-Latent Dirichlet Allocation (LDA) is used as a topic modeling technique that can classify text in a document to a particular topic. It uses **Dirichlet distribution** to find topics for each document model and words for each topic model. LDA is a technique to map sentences to topics. LDA extracts certain sets of topic according to topic we fed to it.
+Latent Dirichlet Allocation (LDA) is used as a topic modeling technique that can classify text in a document to a particular topic. It uses **Dirichlet distribution** to find topics for each document model and words for each topic model. LDA is a technique to map sentences to topics. LDA extracts certain sets of topics according to the topic we fed to it.
 
-### Gibbs sampling algorithm for a Dirichlet Mixture Model (GSDM)
+### Gibbs Sampling algorithm for a Dirichlet Mixture Model (GSDMM)
 GSDMM (Gibbs Sampling Dirichlet Multinomial Mixture) is a short text clustering model. The model solves the sparsity problem of short text clustering while also displaying word topics like LDA. GSDMM is essentially a modified LDA that assumes that a document (tweet) encompasses 1 topic. This differs from LDA which assumes that a document can have multiple topics. 
 
-Both **lemmatized** and **unlemmatized** tweets were considered. Furthermore, the impact of different text representation methods, including term frequency-inverse document frequency (**tf-idf**) and bag-of-words (**BOW**), on the performance of these models was explored.
+Both **lemmatized** and **not lemmatized** tweets were considered. Furthermore, the impact of different text representation methods, including term frequency-inverse document frequency (**tf-idf**) and bag-of-words (**BOW**), on the performance of these models was explored.
 
 ### BERTopic
 BERTopic is a topic modeling technique that leverages **BERT** embeddings and **c-TF-IDF** to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions. The topics extracted are mainly about **sleeping**, **vaccination**, **COVID-19**, **insurance**, **online meetings and Skype**, and **internet speed and problems**.
@@ -64,7 +64,7 @@ A sample of **1,500** tweets was labeled manually based on three categories of *
 
 
 ### Transformers
-Incorporating transformer-based architectures, such as **ParsBert**, **BERTweet-FA**, and **xlm-roberta**, for the text classification task.
+Incorporating transformer-based architectures, such as **ParsBERT**, **BERTweet-FA**, and **XLM-RoBERTa**, for the text classification task.
 <p align="center">
   <br/>
     <img src="img/xlm-roberta.png" height="100" />
